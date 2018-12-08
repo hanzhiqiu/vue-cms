@@ -1,7 +1,7 @@
 <template>
   <el-menu
     class="navbar"
-    mode="horizontal" 
+    mode="horizontal"
     text-color="#fff"
     active-text-color="#fff">
     <router-link to="/home">
@@ -33,6 +33,9 @@
             修改头像
           </el-dropdown-item>
         </router-link>
+        <el-dropdown-item>
+          修改头像
+        </el-dropdown-item>
         <!-- <a target='_blank' href="https://github.com/PanJiaChen/vue-element-admin/">
           <el-dropdown-item>
             项目地址
